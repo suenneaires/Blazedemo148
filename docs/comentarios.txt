@@ -1,0 +1,5 @@
+Page Objects
+- Forma/Abordagem de organização da automação de teste
+
+Estrutura
+- Mapeamento de Páginas --> /pages/home.page.js
