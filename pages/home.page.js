@@ -18,8 +18,8 @@ class HomePage {
     } // Fecha selecionar_viagem
 
     // Assert - Valida
-    // Faremos nos testes
-    
-
+    // Faremos nos testes 
 
 } // Fecha a classe
+
+export default HomePage // torna a classe visível
