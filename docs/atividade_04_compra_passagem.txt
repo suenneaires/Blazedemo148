@@ -1,0 +1,43 @@
+1. História de Usuário
+Como viajante,
+Quero pesquisar voos e comprar uma passagem aérea,
+Para realizar minha viagem entre a origem e o destino escolhidos.
+
+2. Critério de Aceite
+
+Dado que estou na página inicial do BlazeDemo (home),
+Quando seleciono as cidades de origem e destino,
+E clico em "Find Flights",
+Então visualizo os voos disponíveis na página reserve.
+
+Quando escolho um voo clicando em "Choose This Flight",
+Então visualizo o formulário de compra na página purchase.
+
+Quando preencho os dados da compra com as informações,
+E clico em "Purchase Flight",
+Então visualizo a página confirmation,
+E a mensagem "Thank you for your purchase today!".
+
+3. Caso de Teste — Compra De Passagem
+
+Passo 1: Acessar https://www.blazedemo.com.
+Resultado esperado: visualizar a página inicial (home)
+com os campos de origem e destino.
+
+Passo 2: Selecionar Boston como origem e Berlin como destino
+e clicar em "Find Flights".
+Resultado esperado: visualizar a página reserve com a lista
+de voos e o título "Flights from Boston to Berlin:".
+
+Passo 3: Escolher um voo clicando em "Choose This Flight".
+Resultado esperado: visualizar a página purchase com
+o formulário de compra.
+
+Passo 4: Preencher o nome com "Suenne", selecionar
+"Diner's Club" e marcar "Remember me".
+Resultado esperado: visualizar o nome e o cartão selecionados
+e a opção "Remember me" marcada.
+
+Passo 5: Clicar em "Purchase Flight".
+Resultado esperado: visualizar a página confirmation
+com a mensagem "Thank you for your purchase today!".
