@@ -3,3 +3,17 @@ Page Objects
 
 Estrutura
 - Mapeamento de Páginas --> /pages/home.page.js
+
+
+Prioridades de Seletores
+- uuid: Identificador único universal (raro)
+- data-test: indicado pela W3C
+- id: precedido por #
+- name: [name='algum_nome']
+- cssSelector (h1.title.bold), tag(h1) e class(title.bold)
+- outros tipos de propriedades [alguma propriedade = 'algum valor']
+- xPath: coordenada do elemento (quando não tem outra forma ou 
+  após medir o desempenho comparado a outros localizadores)
+
+xPath é frágil, quebra quando muda o layout
+/html/body/div[2]/div/table/tbody/tr[3]/td[2]
