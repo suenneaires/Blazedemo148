@@ -2,7 +2,7 @@ class ReservePage{
 
     constructor(page){
         this.page = page
-        this.url = 'reserve'
+        this.url = /reserve/
         this.titulosecao = 'h3'
     }// Fecha o constructor
 

@@ -2,12 +2,12 @@ class PurchasePage {
 
     constructor(page){
         this.page = page
-        this.url = 'purchase'
+        this.url = /purchase/
         this.titulosecao = 'h2'             // seletor do tipo tag
         this.name = '#inputName'            // seletor do tipo id
         this.cardtype = '[name="cardType"]' // seletor do tipo parametro
         this.rememberme = '#rememberMe'     // seletor do tipo id
-        this.btnPurchaseFlight = '.btn.btn-prymary' // seletor do tipo class
+        this.btnPurchaseFlight = '.btn.btn-primary' // seletor do tipo class
     }
 
     async preencher_nome(nome){
