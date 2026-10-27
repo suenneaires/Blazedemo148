@@ -4,7 +4,6 @@ Quero pesquisar voos e comprar uma passagem aérea,
 Para realizar minha viagem entre a origem e o destino escolhidos.
 
 2. Critério de Aceite
-
 Dado que estou na página inicial do BlazeDemo (home),
 Quando seleciono as cidades de origem e destino,
 E clico em "Find Flights",
@@ -19,7 +18,6 @@ Então visualizo a página confirmation,
 E a mensagem "Thank you for your purchase today!".
 
 3. Caso de Teste — Compra De Passagem
-
 Passo 1: Acessar https://www.blazedemo.com.
 Resultado esperado: visualizar a página inicial (home)
 com os campos de origem e destino.
